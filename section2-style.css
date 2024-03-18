@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+  gap: 30px;
+}
+
+.main-content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+  gap: 30px;
+}
+
+.img-container {
+  position: relative;
+  width: 650px;
+  height: 650px;
+  padding: 20px;
+}
+
+.img-box {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  z-index: 10;
+}
+
+.circle {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: rgba(255, 173, 30, 1);
+  position: absolute;
+  z-index: 1;
+}
+
+.circle2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(254, 98, 64, 1);
+  position: absolute;
+  z-index: 1;
+}
+
+.img-text-box {
+  display: flex;
+  flex-flow: row wrap;
+  width: 310px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(167, 167, 167);
+  position: absolute;
+  z-index: 11;
+  bottom: 200px;
+  left: 300px;
+  padding: 25px;
+}
+
+.img-text-box2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 310px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(167, 167, 167);
+  position: absolute;
+  z-index: 11;
+  bottom: 90px;
+  left: 300px;
+  padding: 25px;
+}
+
+.dollar-text {
+  font-size: 14px;
+}
+
+.dollar-text-2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon-1 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+}
+
+.icon-2 {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  z-index: 2;
+  top: 66px;
+  left: 70px;
+}
+
+.icon-3 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  z-index: 3;
+  top: 67px;
+  left: 120px;
+}
+
+.icon-4 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  z-index: 4;
+  top: 67px;
+  left: 170px;
+}
+
+.icon-5 {
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: rgba(211, 224, 236, 1);
+  z-index: 5;
+  top: 67px;
+  left: 220px;
+  position: absolute;
+  font-size: 25px;
+}
+.icon-5:hover {
+  background-color: rgba(185, 209, 233, 1);
+}
+
+.icon-dollar-ring {
+  width: 90px;
+  height: 90px;
+  /* position: absolute; */
+}
+
+.icon-dollar {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 55px;
+  left: 87px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 650px;
+  padding: 20px;
+  gap: 30px;
+}
+
+.text-container-header {
+  width: 510px;
+  height: 180px;
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 60px;
+}
+
+.text-container-content {
+  width: 570px;
+  height: 180px;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.next-button {
+  width: 185px;
+  height: 70px;
+  color: white;
+  border-radius: 15px;
+  background-color: rgba(64, 76, 153, 1);
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.next-button:hover {
+  background-color: rgba(47, 65, 178, 1);
+}
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+
+@media only screen and (max-width: 700px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    width: 530px;
+    margin: 10px;
+  }
+
+  .main-content2 {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    width: 530px;
+    margin: 10px;
+  }
+
+  .img-container {
+    position: relative;
+    width: 375px;
+    height: 650px;
+    padding: 20px;
+  }
+
+  .img-box {
+    width: 280px;
+    height: 310px;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .circle {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: rgba(255, 173, 30, 1);
+    position: absolute;
+    z-index: 1;
+  }
+
+  .circle2 {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: rgba(254, 98, 64, 1);
+    position: absolute;
+    z-index: 1;
+  }
+
+  .img-text-box {
+    display: flex;
+    flex-flow: row wrap;
+    width: 155px;
+    height: 83px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(167, 167, 167);
+    position: absolute;
+    z-index: 11;
+    top: 220px;
+    left: 200px;
+    padding: 15px;
+    font-size: 9px;
+  }
+
+  .img-text-box2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 155px;
+    height: 88px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(167, 167, 167);
+    position: absolute;
+    z-index: 11;
+    top: 220px;
+    left: 200px;
+    padding: 25px;
+  }
+
+  .dollar-text {
+    font-size: 7px;
+  }
+
+  .dollar-text-2 {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .icon-1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+  }
+
+  .icon-2 {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 39px;
+  }
+
+  .icon-3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 40px;
+    left: 66px;
+  }
+
+  .icon-4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 4;
+    top: 40px;
+    left: 91px;
+  }
+
+  .icon-5 {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(211, 224, 236, 1);
+    z-index: 5;
+    top: 40px;
+    left: 115px;
+    position: absolute;
+    font-size: 9px;
+  }
+  .icon-5:hover {
+    background-color: rgba(185, 209, 233, 1);
+  }
+
+  .icon-dollar-ring {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 30px;
+  }
+
+  .icon-dollar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 42px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 650px;
+    /* padding: 20px; */
+    gap: 10px;
+  }
+
+  .text-container-header {
+    width: 327px;
+    height: 160px;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 40px;
+  }
+
+  .text-container-content {
+    width: 327px;
+    height: 324px;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .next-button {
+    width: 185px;
+    height: 70px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(64, 76, 153, 1);
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  .next-button:hover {
+    background-color: rgba(47, 65, 178, 1);
+  }
+}

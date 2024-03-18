@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  background-color: #ecf7fb;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  height: 80px;
+}
+
+.header-title {
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #404c99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title-about,
+.header-title-service,
+.header-title-blog,
+.header-title-contact,
+.header-title-pricing {
+  color: #5a7184;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 140px;
+  height: 60px;
+  font-weight: bold;
+}
+.btn-login:hover {
+  color: white;
+  background-color: #404c99;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  gap: 40px;
+}
+
+.header-intro {
+  font-size: 60px;
+  font-weight: bold;
+  color: #183b56;
+}
+
+.btn-intro-quotes {
+  background-color: #404c99;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.btn-intro-quotes:hover {
+  background-color: #5a7184;
+}
+
+.img-intro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1176px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf7fb;
+    padding: 0 50px 0px 50px;
+    width: 100%;
+  }
+  .btn-login {
+    display: none;
+  }
+  .header-title-about,
+  .header-title-service,
+  .header-title-blog,
+  .header-title-contact,
+  .header-title-pricing {
+    display: none;
+  }
+  .header-title {
+    display: flex;
+  }
+  .header-intro {
+    font-size: 70px;
+  }
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-intro {
+    display: flex;
+    padding: 100px 70px 0px 70px;
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1176px) {
+  .se-menu {
+    display: none;
+  }
+}
+
+/* Header end*/
+
+/* Free */
+.Free-Content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container-ceo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.img-ceo-quotes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ceo-quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.ceo-quotes-word {
+  font-size: 30px;
+  font-weight: bold;
+  color: #183b56;
+  padding-bottom: 50px;
+}
+
+.ceo-quotes-name {
+  font-size: 20px;
+  color: #0bc0eb;
+}
+
+.ceo-quotes-company {
+  font-size: 20px;
+  color: #5a7184;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container-ceo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .img-rotate-1,
+  .img-rotate-2 {
+    transform: rotate(90deg);
+  }
+
+  .ceo-quotes {
+    width: 400px;
+  }
+}
+
+.boxF1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: #32bdeb;
+  color: white;
+  border: #32bdeb solid 30px;
+}
+
+.boxF2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 50px;
+}
+
+.subscibe {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900px;
+  line-height: 60px;
+}
+.special {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900px;
+  line-height: 60px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icont {
+  display: flex;
+  flex-direction: row;
+}
+.agency-title {
+  font-weight: bold;
+  color: #404c99;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+.services {
+  font-weight: 500;
+  color: #183b56;
+  font-size: 22px;
+}
+.company {
+  font-weight: 500;
+  color: #183b56;
+  font-size: 22px;
+}
+.portfolio {
+  font-weight: 500;
+  color: #183b56;
+  font-size: 22px;
+}
+.contact {
+  font-weight: 500;
+  color: #183b56;
+  font-size: 22px;
+}
+.button {
+  background-color: #404c99;
+  color: white;
+  border: #404c99 solid 10px;
+  border-radius: 40px;
+  margin-top: -10px;
+  margin-right: -20px;
+  padding: 10px;
+}
+.Enter-input {
+  border: #32bdeb solid 40px;
+  border-radius: 200px;
+  background-color: white;
+}
+
+.Enter-input {
+  border: #fff solid 50px;
+  border-radius: 50px;
+}
+.footer {
+  display: flex;
+  background-color: white;
+  color: #5a7184;
+  font-size: 16px;
+  padding: 90.35px 250px 100.311px 250px;
+  border: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 50px;
+  margin-right: 5px;
+}
+.column2,
+.collumn3,
+.collumn4,
+.coolumn5 {
+  flex: 1;
+  text-align: justify;
+  padding-right: 60px;
+  gap: 20px;
+}
+.ending {
+  display: none;
+}
+.icont {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .Enter-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .Enter-input label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxf3 {
+    display: flex;
+    margin-bottom: 0.5rem;
+    max-width: 700px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .boxF2 {
+    font-size: 30px;
+  }
+  .icon {
+    display: none;
+  }
+  .copyy {
+    display: none;
+  }
+  .icont {
+    display: flex;
+  }
+  .ending {
+    display: flex;
+  }
+}
